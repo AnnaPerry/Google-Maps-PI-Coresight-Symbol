@@ -1,6 +1,6 @@
 (function (CS) {
     var definition = {
-        typeName: 'gmaps1',
+        typeName: 'gmapspartone',
         datasourceBehavior: CS.DatasourceBehaviors.Multiple,
         getDefaultConfig: function () {
             return {
