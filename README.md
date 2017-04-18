@@ -8,7 +8,7 @@ https://pisquare.osisoft.com/community/developers-club/blog/2016/05/31/developin
 
 https://pisquare.osisoft.com/community/developers-club/blog/2016/06/06/developing-the-google-maps-pi-coresight-symbol-part-2
 
-https://pisquare.osisoft.com/community/developers-club/blog/2016/06/17/developing-the-google-maps-pi-coresight-symbol-part-3
+https://pisquare.osisoft.com/community/developers-club/blog/2016/06/27/developing-the-google-maps-pi-coresight-symbol-part-3
 
 https://pisquare.osisoft.com/community/developers-club/blog/2017/04/18/developing-the-google-maps-pi-coresight-symbol-part-4
 
