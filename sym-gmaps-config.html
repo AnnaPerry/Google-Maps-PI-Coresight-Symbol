@@ -2,10 +2,12 @@
     <span style="color:#fff; margin-left:15px">Attributes Names Settings</span>
 </div>
 
-<div class="c-config-content">Latitude attribute name:
+<div class="c-config-content">
+    Latitude attribute name:
     <input type="text" ng-model="config.LatName">
 </div>
-<div class="c-config-content">Longitude attribute name:
+<div class="c-config-content">
+    Longitude attribute name:
     <input type="text" ng-model="config.LngName">
 </div>
 
@@ -15,14 +17,20 @@
 <div class="c-side-pane t-toolbar">
     <span style="color:#fff; margin-left:15px">Marker Color</span>
 </div>
-<format-color-picker id="textColor" property="MarkerColor" config="config"></format-color-picker>
-
+<div class="config-option-format">
+    <cs-color-picker id="markerColor" ng-model="config.MarkerColor"></cs-color-picker>
+</div>
 
 
 
 
 <div class="c-side-pane t-toolbar">
     <span style="color:#fff; margin-left:15px">Map Options</span>
+</div>
+
+<div class="c-config-content">
+    Historical Mode
+    <input type="checkbox" ng-model="config.HistoricalMode">
 </div>
 
 <div class="c-config-content">
