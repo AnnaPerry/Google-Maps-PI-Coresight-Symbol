@@ -1,7 +1,7 @@
 Developing the Google Maps PI Coresight symbol
 ===
 
-##Organization
+## Organization
 This repository has the sample application from the blog posts published on PI Square:
 
 https://pisquare.osisoft.com/community/developers-club/blog/2016/05/31/developing-the-google-maps-pi-coresight-symbol-part-1
@@ -12,8 +12,8 @@ https://pisquare.osisoft.com/community/developers-club/blog/2016/06/27/developin
 
 https://pisquare.osisoft.com/community/developers-club/blog/2017/04/18/developing-the-google-maps-pi-coresight-symbol-part-4
 
-##Licensing
-Copyright 2015 OSIsoft, LLC.
+## Licensing
+Copyright 2017 OSIsoft, LLC.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
