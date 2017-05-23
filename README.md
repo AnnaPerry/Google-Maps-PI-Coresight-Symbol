@@ -12,6 +12,11 @@ https://pisquare.osisoft.com/community/developers-club/blog/2016/06/27/developin
 
 https://pisquare.osisoft.com/community/developers-club/blog/2017/04/18/developing-the-google-maps-pi-coresight-symbol-part-4
 
+## Example of the symbol version 3
+
+<img src="https://github.com/AnnaPerry/Google-Maps-PI-Coresight-Symbol/blob/master/Pics/Example.png" 
+alt="Google Maps custom symbol version 3" />
+
 ## Licensing
 Copyright 2017 OSIsoft, LLC.
 
