@@ -2,35 +2,70 @@
     <span style="color:#fff; margin-left:15px">Attributes Names Settings</span>
 </div>
 
-<div class="c-config-content">
-    Latitude attribute name:
+<div class="c-config-content">Latitude attribute name:
     <input type="text" ng-model="config.LatName">
 </div>
-<div class="c-config-content">
-    Longitude attribute name:
+<div class="c-config-content">Longitude attribute name:
     <input type="text" ng-model="config.LngName">
 </div>
+<div class="c-config-content">Health Attribute:
+    <input type="text" ng-model="config.MapAttr">
+</div>
 
-
-
+Limits:
+<div class="c-config-content"> Max:
+     <input type="number" ng-model="config.Limits.Max">  
+</div>
+<div class="c-config-content">HiHi:
+     <input type="number" ng-model="config.Limits.HiHi"> 
+</div>
+<div class="c-config-content">Hi:
+      <input type="number" ng-model="config.Limits.Hi"> 
+</div>
+<div class="c-config-content">Lo:
+      <input type="number" ng-model="config.Limits.Lo"> 
+</div>
+<div class="c-config-content">LoLo:
+      <input type="number" ng-model="config.Limits.LoLo"> 
+</div>
+<div class="c-config-content">Min:
+      <input type="number" ng-model="config.Limits.Min"> 
+</div>
 
 <div class="c-side-pane t-toolbar">
     <span style="color:#fff; margin-left:15px">Marker Color</span>
 </div>
-<div class="config-option-format">
-    <cs-color-picker id="markerColor" ng-model="config.MarkerColor"></cs-color-picker>
-</div>
+
+    
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="Max-HiHi" ng-model="config.COLORS.HiHitoMax" config="config"></cs-color-picker>
+    </div>
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="HiHi-Hi" ng-model="config.COLORS.HitoHiHi" config="config"></cs-color-picker>
+    </div>
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="Hi-Lo" ng-model="config.COLORS.LotoHi" config="config"></cs-color-picker>
+    </div>
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="Lo-LoLo" ng-model="config.COLORS.LoLotoLo" config="config"></cs-color-picker>
+    </div>
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="Min-Lo" ng-model="config.COLORS.MintoLoLo" config="config"></cs-color-picker>
+    </div>
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="Min" ng-model="config.COLORS.Min" config="config"></cs-color-picker>
+    </div>
+    <div class="config-option-format">   
+            <pv-color-picker colorkeyword="Bad Value" ng-model="config.COLORS.BadData" config="config"></cs-color-picker>
+    </div>
+<!-- <format-color-picker id="textColor" property="MarkerColor" config="config"></format-color-picker> -->
+
 
 
 
 
 <div class="c-side-pane t-toolbar">
     <span style="color:#fff; margin-left:15px">Map Options</span>
-</div>
-
-<div class="c-config-content">
-    Historical Mode
-    <input type="checkbox" ng-model="config.HistoricalMode">
 </div>
 
 <div class="c-config-content">
@@ -67,7 +102,7 @@
 <div class="c-config-content">
     Select Map Type:
     <select name="singleSelect" ng-model="config.MapTypeId">
-        <option value="HYBRID">Hibrid</option>
+        <option value="HYBRID">Hybrid</option>
         <option value="TERRAIN">Terrain</option>
         <option value="ROADMAP">Roadmap</option>
         <option value="SATELLITE">Satellite</option>
